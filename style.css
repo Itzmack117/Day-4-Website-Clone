@@ -1,0 +1,57 @@
+.blk-bg{
+    background-color: black;
+}
+.fl-grow{
+    flex-grow: 1;
+}
+.bg-image{
+    background: url("bg-image-1.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+.bg-image-2{
+    background: url("bg-image-3.jpg");
+    background-size: 100% 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.p-bottom{
+    position: absolute;
+    bottom: -110px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.sold-out{
+    background-color: red;
+    color: white;
+    margin-left: 2rem;
+    border-radius: 5%;
+}
+
+.tkts-left{
+    background-color: black;
+    color: white;
+    margin-top: 4px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.msg-block{
+    width: 100%;
+    height: 100px;
+}
+
+footer{
+    height: 100px;
+    background-color: lightslategray;
+}
+
+*{
+    outline: 1px solid red;
+}
